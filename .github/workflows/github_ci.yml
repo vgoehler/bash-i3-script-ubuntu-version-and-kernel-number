@@ -24,7 +24,7 @@ jobs:
 
     # Dependencies
     - name: Install Dependencies
-      run: apt install bats
+      run: sudo apt-get install -y bats
       
     # Runs a single command using the runners shell
     - name: Testing
